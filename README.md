@@ -9,7 +9,7 @@ Time spent: **10** hours spent in total
 1. Authenticated Cross-Site Scripting (XSS) via Media File Metadata CVE-2017-6814
 - Summary: This vulnerability allows for XSS due to the improper handling of metadata of MP3 files when added to a playlist and attached to a post by an administrator.
 
-    - Vulnerability types: Cross Site Scripting (XSS)
+    - [] Vulnerability types: Cross Site Scripting (XSS)
     
     - Tested in version: 4.2
     
@@ -17,13 +17,7 @@ Time spent: **10** hours spent in total
     
     - GIF Walkthrough: ![alt text](https://github.com/WickedElectronics/Secure-Software-Engineering/blob/Week-7/mp3%20xss.gif "MP3 XSS Vulnerability")
     
-  - Steps to recreate: 1) Log in as the admin.
-			2) Create a new post
-			3) Attach media to the post
-			4) Drop in the special MP3 file
-			5) Add the MP3 file to a playlist
-			6) Attach this playlist to the post
-			7) View the post to execute the vulnerability
+  - Steps to recreate: First, log in as the admin. Next, create a new post. Click on "attach media" in the editor. Drag and drop in the special MP3 file. Once uploaded, Add the MP3 file to a playlist. Attach this playlist to the post that is being created. Finally, view the post to execute the vulnerability.
 			
   -Affected source code: 
  
