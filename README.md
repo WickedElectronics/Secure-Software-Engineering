@@ -6,7 +6,7 @@ Time spent: **10** hours spent in total
 
 ## Pentesting Report
 
-1. (Required) Authenticated Cross-Site Scripting (XSS) via Media File Metadata CVE-2017-6814
+1. (Required) [Authenticated Cross-Site Scripting (XSS) via Media File Metadata CVE-2017-6814](https://www.cvedetails.com/cve/CVE-2017-6814/)
 - Summary: This vulnerability allows for XSS due to the improper handling of metadata of MP3 files when added to a playlist and attached to a post by an administrator.
 
     - Vulnerability types: Cross Site Scripting (XSS)
@@ -25,20 +25,21 @@ Time spent: **10** hours spent in total
  
  
 
-2. (Required) Vulnerability Name or ID
+2. (Required) [Authenticated Shortcode Tags Cross-Site Scripting CVE-2015-5714](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5714)
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+    - Vulnerability types: Cross Site Scripting (XSS)
+    - Tested in version: 4.2
+    - Fixed in version: 4.3.1
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
+    
+3. (Required) Unauthenticated Stored Cross-Site Scripting (XSS)
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+    - Vulnerability types: Cross Site Scripting (XSS)
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.1
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
