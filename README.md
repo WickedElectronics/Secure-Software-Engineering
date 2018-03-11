@@ -46,11 +46,11 @@ Time spent: **10** hours spent in total
 
 ## Assets
 
-[1] – Specially crafted MP3 file - https://securify.nl/advisory/SFY20160742/xss.mp3
+[1 – Specially crafted MP3 file]  (https://securify.nl/advisory/SFY20160742/xss.mp3)
 
 ## Resources
 
-- [1] - Sumofpwn advisory on "WordPress audio playlist functionality is affected by Cross-Site Scripting" (https://sumofpwn.nl/advisory/2016/wordpress_audio_playlist_functionality_is_affected_by_cross_site_scripting.html)
+- [1 - Sumofpwn advisory on "WordPress audio playlist functionality is affected by Cross-Site Scripting"] (https://sumofpwn.nl/advisory/2016/wordpress_audio_playlist_functionality_is_affected_by_cross_site_scripting.html)
 - [WordPress Source Browser](https://core.trac.wordpress.org/browser/)
 - [WordPress Developer Reference](https://developer.wordpress.org/reference/)
 
