@@ -19,6 +19,7 @@ Time spent: **10** hours spent in total
 			
 - [ ] Affected source code: wp_playlist_shortcode() method (/wp-includes/media.php): 
 ![alt text](https://github.com/WickedElectronics/Secure-Software-Engineering/blob/Week-7/mp3%20code1.png "MP3 XSS Vulnerability 1")
+
   renderTracks() method (/wp-includes/js/mediaelement/wp-playlist.js): 
   ![alt text](https://github.com/WickedElectronics/Secure-Software-Engineering/blob/Week-7/mp3%20code2.png "MP3 XSS Vulnerability 2")
  
