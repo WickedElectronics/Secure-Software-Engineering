@@ -11,7 +11,7 @@ Time spent: **X** hours spent in total
     - Vulnerability types: Cross Site Scripting (XSS)
     - Tested in version:4.2
     - Fixed in version: 4.2.13
-    - GIF Walkthrough: 
+    - GIF Walkthrough: ![alt text](https://github.com/WickedElectronics/Secure-Software-Engineering/blob/Week-7/mp3%20xss.gif "Logo Title Text 1")
   - Steps to recreate: 1) Log in as the admin.
 				2) Create a new post
 				3) Attach media to the post
