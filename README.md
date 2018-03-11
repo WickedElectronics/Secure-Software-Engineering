@@ -1,17 +1,17 @@
 # Project 7 - WordPress Pentesting
 
-Time spent: **X** hours spent in total
+Time spent: **10** hours spent in total
 
-> Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
+> Objective: Find, analyze, recreate, and document **three vulnerabilities** affecting an old version of WordPress
 
 ## Pentesting Report
 
 1. Authenticated Cross-Site Scripting (XSS) via Media File Metadata CVE-2017-6814
 - Summary: This vulnerability allows for XSS due to the improper handling of metadata of MP3 files when added to a playlist and attached to a post by an administrator. 
     - Vulnerability types: Cross Site Scripting (XSS)
-    - Tested in version:4.2
+    - Tested in version: 4.2
     - Fixed in version: 4.2.13
-    - GIF Walkthrough: ![alt text](https://github.com/WickedElectronics/Secure-Software-Engineering/blob/Week-7/mp3%20xss.gif "Logo Title Text 1")
+    - GIF Walkthrough: ![alt text](https://github.com/WickedElectronics/Secure-Software-Engineering/blob/Week-7/mp3%20xss.gif "MP3 XSS Vulnerability")
   - Steps to recreate: 1) Log in as the admin.
 				2) Create a new post
 				3) Attach media to the post
@@ -19,7 +19,7 @@ Time spent: **X** hours spent in total
 				5) Add the MP3 file to a playlist
 				6) Attach this playlist to the post
 				7) View the post to execute the vulnerability
-  -Affected source code:
+  -Affected source code: 
  
  
 
