@@ -52,6 +52,7 @@ Time spent: **10** hours spent in total
 ## Assets
 
 [1 – Specially crafted MP3 file](https://securify.nl/advisory/SFY20160742/xss.mp3)
+
 [3 - Content of XSS comment for Unauthenticated Stored Cross-Site Scripting](https://pastebin.com/SMnhZHgG)
 
 ## Resources
