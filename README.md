@@ -27,20 +27,24 @@ Time spent: **10** hours spent in total
 
 2. (Required) [Authenticated Shortcode Tags Cross-Site Scripting CVE-2015-5714](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5714)
   - [ ] Summary: 
+  
     - Vulnerability types: Cross Site Scripting (XSS)
     - Tested in version: 4.2
     - Fixed in version: 4.3.1
-  - [ ] GIF Walkthrough: 
+    
+  - [ ] GIF Walkthrough: ![alt text](https://github.com/WickedElectronics/Secure-Software-Engineering/blob/Week-7/post%20xss.gif "MP3 XSS Vulnerability")
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1]
     
 3. (Required) Unauthenticated Stored Cross-Site Scripting (XSS)
   - [ ] Summary: 
+  
     - Vulnerability types: Cross Site Scripting (XSS)
     - Tested in version: 4.2
     - Fixed in version: 4.2.1
-  - [ ] GIF Walkthrough: 
+    
+  - [ ] GIF Walkthrough: ![alt text](https://github.com/WickedElectronics/Secure-Software-Engineering/blob/Week-7/comment%20xss.gif "MP3 XSS Vulnerability")
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
