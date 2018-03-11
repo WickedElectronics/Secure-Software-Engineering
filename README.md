@@ -11,15 +11,16 @@ Time spent: **10** hours spent in total
 
     - [ ] Vulnerability types: Cross Site Scripting (XSS)
     
-    - Tested in version: 4.2
+    - [ ] Tested in version: 4.2
     
-    - Fixed in version: 4.2.13
+    - [ ] Fixed in version: 4.2.13
     
-    - GIF Walkthrough: ![alt text](https://github.com/WickedElectronics/Secure-Software-Engineering/blob/Week-7/mp3%20xss.gif "MP3 XSS Vulnerability")
+    - [ ] GIF Walkthrough: ![alt text](https://github.com/WickedElectronics/Secure-Software-Engineering/blob/Week-7/mp3%20xss.gif "MP3 XSS Vulnerability")
     
-  - Steps to recreate: First, log in as the admin. Next, create a new post. Click on "attach media" in the editor. Drag and drop in the special MP3 file. Once uploaded, Add the MP3 file to a playlist. Attach this playlist to the post that is being created. Finally, view the post to execute the vulnerability.
+  - [ ] Steps to recreate: First, log in as the admin. Next, create a new post. Click on "attach media" in the editor. Drag and drop in the special MP3 file. Once uploaded, Add the MP3 file to a playlist. Attach this playlist to the post that is being created. Finally, view the post to execute the vulnerability.
 			
-  -Affected source code: 
+  - [ ] Affected source code: wp_playlist_shortcode() method (/wp-includes/media.php): ![alt text](https://github.com/WickedElectronics/Secure-Software-Engineering/blob/Week-7/mp3%20code1.png "MP3 XSS Vulnerability 1")
+  renderTracks() method (/wp-includes/js/mediaelement/wp-playlist.js): ![alt text](https://github.com/WickedElectronics/Secure-Software-Engineering/blob/Week-7/mp3%20code2.png "MP3 XSS Vulnerability 2")
  
  
 
@@ -56,20 +57,4 @@ GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 Describe any challenges encountered while doing the work
-
-## License
-
-    Copyright [yyyy] [name of copyright owner]
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-        http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
 
