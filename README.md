@@ -6,7 +6,7 @@ Time spent: **10** hours spent in total
 
 ## Pentesting Report
 
-1. Authenticated Cross-Site Scripting (XSS) via Media File Metadata CVE-2017-6814
+1. (Required) Authenticated Cross-Site Scripting (XSS) via Media File Metadata CVE-2017-6814
 - Summary: This vulnerability allows for XSS due to the improper handling of metadata of MP3 files when added to a playlist and attached to a post by an administrator.
 
     - Vulnerability types: Cross Site Scripting (XSS)
@@ -50,6 +50,7 @@ Time spent: **10** hours spent in total
 
 ## Resources
 
+- [1] - Sumofpwn advisory on "WordPress audio playlist functionality is affected by Cross-Site Scripting" (https://sumofpwn.nl/advisory/2016/wordpress_audio_playlist_functionality_is_affected_by_cross_site_scripting.html)
 - [WordPress Source Browser](https://core.trac.wordpress.org/browser/)
 - [WordPress Developer Reference](https://developer.wordpress.org/reference/)
 
