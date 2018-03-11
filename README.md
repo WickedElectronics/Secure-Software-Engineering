@@ -34,7 +34,8 @@ Time spent: **10** hours spent in total
     
   - [ ] GIF Walkthrough: ![alt text](https://github.com/WickedElectronics/Secure-Software-Engineering/blob/Week-7/post%20xss.gif "MP3 XSS Vulnerability")
   
-  - [ ] Steps to recreate: First, log in as the administrator (or anyone that can publish a post). Next, create a new post. For the title, make it ![alt text](https://github.com/WickedElectronics/Secure-Software-Engineering/blob/Week-7/XSS2.PNG "XSS 2 Code") Save the post and be sure it is public and publised. Now, navigate to this post on the site, and hover the mouse over the text that says "Click me" to execute the vulnerability. I have linked the actual content of my comment below.
+  - [ ] Steps to recreate: First, log in as the administrator (or anyone that can publish a post). Next, create a new post. For the title, make it
+  ![alt text](https://github.com/WickedElectronics/Secure-Software-Engineering/blob/Week-7/XSS2.PNG "XSS 2 Code") Save the post and be sure it is public and publised. Now, navigate to this post on the site, and hover the mouse over the text that says "Click me" to execute the vulnerability. I have linked the actual content of my comment below.
   
     
 3. (Required) Unauthenticated Stored Cross-Site Scripting (XSS)
