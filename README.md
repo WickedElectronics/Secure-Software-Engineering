@@ -23,7 +23,9 @@ of your developer tools / view source in your browser). Copy the phpsessionid of
 the other browser (the 'attacker'), replace the phpsessionid with the one from the logged in browser (victim).
 Now, on the attacker, click the login button and it should automatically log you in.
 
-Vulnerability #2: __________________
+GIF Walkthrough: ![alt text](https://github.com/WickedElectronics/Secure-Software-Engineering/blob/Week-8/hijacking.gif "Session Hijacking Vulnerability")
+
+Vulnerability #2: SQL Injection (SQLi): 
 
 
 ## Green
@@ -32,9 +34,13 @@ Vulnerability #1: Cross-Site Scripting: Submit feedback and give this to the for
 <script>alert('Russell found the XSS!');</script>
 View it in the admin section to run it
 
+GIF Walkthrough: ![alt text](https://github.com/WickedElectronics/Secure-Software-Engineering/blob/Week-8/xss.gif "Cross-Site Scripting (XSS) Vulnerability")
+
 Vulnerability #2: Username Enumeration: On the green site, login attempts with usernames that exist but with incorrect
 passwords return bold text. With usernames and passwords that do not exist,
 it is not bolded.
+
+GIF Walkthrough: ![alt text](https://github.com/WickedElectronics/Secure-Software-Engineering/blob/Week-8/username%20enumeration.gif "Username Enumeration Vulnerability")
 
 ## Red
 
@@ -42,8 +48,11 @@ Vulnerability #1: Insecure Direct Object Reference: On the red machine, go to th
 Click on any of them. In the URL, you can see they are being referenced by ID. Change that ID to
 10 or 11 to access a page you should not. The other two machines do not allow this.
 
+GIF Walkthrough: ![alt text](https://github.com/WickedElectronics/Secure-Software-Engineering/blob/Week-8/insecure%20direct%20object%20reference.gif "Insecure Direct Object Reference (IDOR) Vulnerability")
+
 Vulnerability #2: Cross-Site Request Forgery (CSRF): 
 
+GIF Walkthrough: ![alt text](https://github.com/WickedElectronics/Secure-Software-Engineering/blob/Week-8/csrf.gif "Cross-Site Request Forgery (CSRF) Vulnerability")
 
 ## Notes
 
