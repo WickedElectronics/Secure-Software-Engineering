@@ -47,7 +47,7 @@ GIF Walkthrough: ![alt text](https://github.com/WickedElectronics/Secure-Softwar
 
 Vulnerability #1: Insecure Direct Object Reference: On the red machine, go to the "Find a Salesperson" page.
 Click on any of them. In the URL, you can see they are being referenced by ID. Change that ID to
-10 or 11 to access a page you should not be able to. The other two machines do not allow this.
+10 or 11 to access a page you should not be able to. The other two websites do not allow this.
 
 GIF Walkthrough: ![alt text](https://github.com/WickedElectronics/Secure-Software-Engineering/blob/Week-8/insecure%20direct%20object%20reference.gif "Insecure Direct Object Reference (IDOR) Vulnerability")
 
@@ -58,5 +58,5 @@ GIF Walkthrough: ![alt text](https://github.com/WickedElectronics/Secure-Softwar
 
 ## Notes
 
-The SQLi took the most time to find by far. The others were found in a couple of hours, but it took SEVERAL hours to find the SQLi.
+The SQLi took the most time to find by far. The others were found in a couple of hours, but it took **_SEVERAL_** hours to find the SQLi.
 
