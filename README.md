@@ -25,7 +25,7 @@ Now, on the attacker, click the login button and it should automatically log you
 
 GIF Walkthrough: ![alt text](https://github.com/WickedElectronics/Secure-Software-Engineering/blob/Week-8/hijacking.gif "Session Hijacking Vulnerability")
 
-**Vulnerability #2: SQL Injection (SQLi):** On the blue machine, go to the "Find a Salesperson" page. Once there, click any of the names. Note that in the URL the individuals are referenced by an ID number. On the backend, these are probably put into a query to the database to retrieve the appropriate data. Thus, changing the ID number and adding the SQLi ' OR SLEEP(5)=0--' will cause the page to not load for five seconds. This prooves that this is injectable.
+**Vulnerability #2: SQL Injection (SQLi):** On the blue machine, go to the "Find a Salesperson" page. Once there, click any of the names. Note that in the URL the individuals are referenced by an ID number. On the backend, these are probably put into a query to the database to retrieve the appropriate data. Thus, changing the ID number and adding the SQLi ' OR SLEEP(5)=0--' will cause the page to not load for five seconds. This proves that this is injectable.
 
 GIF Walkthrough: ![alt text](https://github.com/WickedElectronics/Secure-Software-Engineering/blob/Week-8/SQLi.gif "SQL Injection (SQLi) Vulnerability")
 
