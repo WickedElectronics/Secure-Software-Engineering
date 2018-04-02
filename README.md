@@ -10,7 +10,7 @@ The cloud provider used was Google Cloud Platform Free Tier. In the cloud, two v
 
 ## Results
 
-The honeypot collected a total of 7940 attacks, with the session.json ([here])(https://github.com/WickedElectronics/Secure-Software-Engineering/blob/Week-9/session.json) in this branch containing information of each. It did not capture any malware.
+The honeypot collected a total of 7940 attacks, with the session.json [here](https://github.com/WickedElectronics/Secure-Software-Engineering/blob/Week-9/session.json) in this branch containing information of each. It did not capture any malware.
 
 ## Issues
 
